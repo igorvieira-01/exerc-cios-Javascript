@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex 9</title>
+    <script>
+        // Lê o salário do empregado
+let salario = parseFloat(prompt("Digite o salário do empregado:"));
+
+// Verifica se o salário é menor que 2500
+if (salario < 2500) {
+    // Calcula o novo salário com o aumento de 25%
+    let aumento = salario * 0.25;
+    let novoSalario = salario + aumento;
+
+    // Mostra o salário anterior e o novo salário
+    alert("Salário anterior: R$ " + salario.toFixed(2) + "\nSalário novo: R$ " + novoSalario.toFixed(2));
+} else {
+    // Informa que não há aumento
+    alert("O salário é R$ " + salario.toFixed(2) + ". Não há aumento.");
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
